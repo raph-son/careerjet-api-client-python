@@ -5,7 +5,7 @@ import requests
 import json
 from careerjet_api_client.constants import Constants
 #Note: urlparse is renamed to urllib.parse in Python 3
-from urlparse import urlparse
+from urllib.parse import urlparse
 
 class CareerjetAPIClient(object):
 
